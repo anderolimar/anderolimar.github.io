@@ -66,14 +66,14 @@ function savePDF() {
 
   html2canvas(document.body).then(canvas => {
     document.body.appendChild(canvas)
-    var img = canvas.toDataURL("img/jpeg", 1.0);
+    var img = canvas.toDataURL("img/jpeg")
 
     var width = doc.internal.pageSize.width;
     var height = doc.internal.pageSize.height;
-    doc.addImage(img, 'JPEG', 0, 0, width, height);
-    doc.save('test.pdf');    
+    doc.addImage(img, 'JPEG', 0, 0, width, height)
+    doc.save('test.pdf')
    
-  });
+  })
 
   console.log("AQUI")
   
