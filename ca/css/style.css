@@ -7,6 +7,10 @@ strong {
   font-weight: bold;
 }
 
+canvas {
+  display: none;
+}
+
 nav .nav-wrapper {
   width: 70%;
 }
