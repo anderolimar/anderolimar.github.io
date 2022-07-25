@@ -1,0 +1,94 @@
+
+* {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+strong {
+  font-weight: bold;
+}
+
+nav .nav-wrapper {
+  width: 70%;
+}
+
+nav .brand-logo {
+  background-image: url(../images/logo.png);
+  text-indent: -70px;
+  overflow: hidden;
+  width: 200px;
+  background-size: 140px;
+  background-repeat: no-repeat;
+  background-position: 0px 5px;
+}
+
+.logo-font {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+  color: #767777;
+  font-weight: 500;
+}
+
+.width-full{
+  max-width: none;
+  width: 100%;
+}
+
+.section.no-pad-bot {
+  padding-top: 0;
+}
+
+.center-logo {
+  padding-top: 30px;
+}
+
+.text-h1 {
+  margin-bottom: 70px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+  color: #767777;
+  font-weight: bold;
+  font-size: 55px;
+  padding: 0 20px;
+}
+
+.light-blue.lighten-1 {
+  background-color: #2096f2 !important;
+}
+
+.section-top {
+  text-align: center;
+  background-color: #00599e;
+  min-height: 350px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: 90px;
+  color: #2096f2;
+}
+
+.page-footer {
+  background-color: #01599e;
+}
+
+@media only screen and (max-width: 992px){
+  nav .brand-logo {
+    background-size: 120px;
+    background-position: 40px;
+  }
+  nav .nav-wrapper {
+    width: 100%;
+  }  
+  .center-logo img {
+    width: 240px;
+  }
+  .section-top {
+    min-height: 400px;
+  }
+  .text-h1 {
+    font-size: 50px;
+  }  
+}
