@@ -67,15 +67,10 @@ function savePDF() {
   html2canvas(document.body).then(canvas => {
     canvas.crossOrigin = 'Anonymous'
     document.body.appendChild(canvas)
-    var url = canvas.toDataURL("image/png")
-
-    const img = new Image();
-    img.onload = () => {
-      doc.addImage(img, 'JPEG', 10, 10);
-      doc.save('test.pdf');
-    };
-    img.crossOrigin = 'Anonymous';
-    img.src = url;    
+    var img = canvas.toDataURL("image/png")
+    doc.addImage(img, 'JPEG', 10, 10);
+    doc.save('test.pdf');
+   
   });
 
   console.log("AQUI")
