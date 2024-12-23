@@ -1,4 +1,4 @@
-const apiURL = "http://localhost:3000"
+const apiURL = "https://anderolimar.github.io/ac"
 
 callApi = (page) => {
     console.log("callApi")
