@@ -1,7 +1,7 @@
 var form;
 var inputValue;
 var callApi = ()=>{};
-const maxProductNumber = 2;
+const maxProductNumber = 5;
 
 function searchSubmit(event) {
     console.log(inputValue.value);
