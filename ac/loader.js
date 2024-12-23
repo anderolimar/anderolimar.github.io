@@ -1,4 +1,4 @@
-const apiURL = "https://anderolimar.github.io/ac/"
+const apiURL = "https://anderolimar.github.io/ac"
 
 callApi = (page) => {
     console.log("callApi")
